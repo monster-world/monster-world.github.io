@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Monster World - world for you</title>
+  <link rel="stylesheet" href="styles/mainstyle.css">
+  <link rel="stylesheet" href="styles/font-awesome.css">
+  <link rel="stylesheet" media="screen and (min-width: 1024px)" href="styles/desktopscreen.css">
+  <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1023px)" href="styles/tabletscreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 767px) and (min-width: 401px)" href="styles/mobilescreen.css">
+  <link rel="stylesheet" media="screen and (max-width: 400px)" href="styles/tinyscreen.css">
+  <script type="text/javascript" src="scripts.js" defer></script>
+</head>
+<body>
+  <div id="modalWindowWrapper" class="modal-window-wrapper _disable">
+    <div id="modalWindow" class="modal-window">
+    </div>
+  </div>
+  <header class="header-wrapper">
+    <div id="navBar" class="header-navbar-wrapper">
+      <div class="logo"><a href="#">Monster World</a></div>
+      <nav class="header-navigation">
+        <div class="menuToggle">≡</div>
+        <ul id="navList" class="navigation-list _hidden">
+          <li><a href="#shots">Screen Shots</a></li>
+          <li><a href="#play">Play</a></li>
+          <li><a href="#developer">Developer</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header-body">
+      <h1>Monster World</h1>
+      <h2>Exciting cartoon world with monsters and dizzy tasks</h2>
+      <a class="button" href="#play">Try now</a>
+    </div>
+  </header>
+  <article id="shots" class="block-screenshots">
+    <h1>Screen Shots</h1>
+    <h2>See the gameplay before playing</h2>
+    <div id="gallery" class="screen-gallery">
+      <div class="screenshot-block">
+        <div id="screen_1" class="screenshot-bg"></div>
+        <img class="screenshot-small" src="./images/screen_1.png" alt="Choosing spells">
+      </div>
+      <div class="screenshot-block">
+        <div id="screen_2" class="screenshot-bg"></div>
+        <img class="screenshot-small" src="./images/screen_2.png" alt="Task">
+      </div>
+      <div class="screenshot-block">
+        <div id="screen_3" class="screenshot-bg"></div>
+        <img class="screenshot-small" src="./images/screen_3.png" alt="Fight">
+      </div>
+      <div class="screenshot-block">
+        <div id="screen_4" class="screenshot-bg"></div>
+        <img class="screenshot-small" src="./images/screen_4.png" alt="Choose a hero">
+      </div>
+    </div>
+  </article>
+  <article id="play" class="block-gamelink">
+    <h1>Play right now</h1>
+    <h2>Discover the game-world and find new friends!</h2>
+    <a class="button" href="./game/">Play</a>
+  </article>
+  <article id="developer" class="block-developer-wrapper">
+    <h1>Developer</h1>
+    <h2>Game author</h2>
+    <div class="block-developer">
+      <div class="developer-image"></div>
+      <div class="developer-name">Ihnatsenka Dzmitry</div>
+      <div class="developer-nick">@nikkaktus24</div>
+      <ul class="developer-social">
+        <li><a class="fa fa-github" href="https://github.com/nikkaktus24"></a></li>
+        <li><a class="fa fa-telegram" href="https://t.me/nikkaktus24"></a></li>
+        <li><a class="fa fa-linkedin" href="https://www.linkedin.com/in/dzmitry-ihnatsenka-a84683165/"></a></li>
+      </ul>
+    </div>
+  </article>
+  <footer class="footer">
+    <p>Ihnatsenka Dzmitry 2018</p>
+  </footer>
+</body>
+</html>
